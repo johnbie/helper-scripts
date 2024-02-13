@@ -12,8 +12,8 @@ dotfiles_dir="$HOME/dotfiles"
 
 # Check if dotfiles directory exists
 if [ ! -d "$dotfiles_dir" ]; then
-    echo "Error: dotfiles directory '$dotfiles_dir' not found."
-    exit 1
+    echo "dotfiles doesn't exist! Cloning dotfiles repo from GitHub..."
+    git clone git@github.com:johnbie/dotfiles "$HOME/dotfiles"
 fi
 
 # Loop through all files in the dotfiles directory
