@@ -1,3 +1,4 @@
+#!/bin/sh
 backup_file() {
     if [ -f "$1" ]&& [ ! -h "$1" ]; then
         mv "$1" "${1}_back"
@@ -5,7 +6,7 @@ backup_file() {
 }
 
 # install stow
-apt install stow
+sudo apt install stow
 
 # create new variable
 dotfiles_dir="$HOME/dotfiles"

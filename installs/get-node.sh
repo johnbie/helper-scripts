@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-
+#!/bin/sh
 # install npm
 apt install npm -y
 
@@ -12,4 +11,3 @@ export NVM_DIR="$HOME/.nvm"
 
 # get latest node version via nvm
 nvm install node
-
