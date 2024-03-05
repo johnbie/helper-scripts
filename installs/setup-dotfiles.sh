@@ -6,7 +6,10 @@ backup_file() {
 }
 
 # install stow
-sudo apt install stow
+sudo apt install stow -y
+
+# install various others
+sudo apt install -y parallel vim
 
 # create new variable
 dotfiles_dir="$HOME/dotfiles"
