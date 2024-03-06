@@ -1,4 +1,7 @@
 #/bin/sh
+#
+# Script based on https://gist.github.com/jasonboukheir/3fdab92ece236744528447a4f7f5de00
+#
 
 shell_script='#!/bin/sh
 case "$(pwd -P)" in
