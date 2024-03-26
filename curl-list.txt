@@ -1,0 +1,5 @@
+https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb
+https://www.jetbrains.com/toolbox-app/download/download-thanks.html?platform=linux
+https://discord.com/api/download?platform=linux&format=deb
+https://github.com/obsidianmd/obsidian-releases/releases/download/v$(curl -s https://api.github.com/repos/obsidianmd/obsidian-releases/releases/latest | jq -r '.name')/obsidian_$(curl -s https://api.github.com/repos/obsidianmd/obsidian-releases/releases/latest | jq -r '.name')_amd64.deb
+https://download.jetbrains.com/toolbox/jetbrains-toolbox-2.2.3.20090.tar.gz?_ga=2.86226577.887336255.1711480740-195062571.1707935809&amp;_gl=1*a5k5m*_ga*MTk1MDYyNTcxLjE3MDc5MzU4MDk.*_ga_9J976DJZ68*MTcxMTQ4MDczOS42LjEuMTcxMTQ4MDc4NC4wLjAuMA.. # can get outdated
