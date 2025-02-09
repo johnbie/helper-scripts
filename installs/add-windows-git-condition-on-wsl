@@ -1,5 +1,12 @@
 #/bin/sh
 #
+# A script that installs the script
+# that allows wsl instance to identify
+# whether to use `C:\Program Files\Git\cmd\git.exe`
+# or `/usr/bin/git`.
+# 
+# Improves performance when opening git repositories outside the sandbox.
+#
 # Script based on https://gist.github.com/jasonboukheir/3fdab92ece236744528447a4f7f5de00
 #
 
